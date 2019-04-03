@@ -1,0 +1,10 @@
+github.com/CognitoIQ/cnp.shared.mage v1.2.2 h1:WMR3cRvh8oGJXS3ilyUMCG/TLIvfG+V03W60rrLvFBI=
+github.com/CognitoIQ/cnp.shared.mage v1.2.2/go.mod h1:rWaHWp2NJCmNuQuswKGba1RQxZvl4xCS+7DqNVDXxeE=
+github.com/aws/aws-lambda-go v1.8.0 h1:YMCzi9FP7MNVVj9AkGpYyaqh/mvFOjhqiDtnNlWtKTg=
+github.com/aws/aws-lambda-go v1.8.0/go.mod h1:zUsUQhAUjYzR8AuduJPCfhBuKWUaDbQiPOG+ouzmE1A=
+github.com/aws/aws-sdk-go v1.19.4 h1:TcCgjX1fscA9WKg/vxzvL28evDWsLd5oOS5WpS90u3A=
+github.com/aws/aws-sdk-go v1.19.4/go.mod h1:KmX6BPdI08NWTb3/sm4ZGu5ShLoqVDhKgpiN924inxo=
+github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af h1:pmfjZENx5imkbgOkpRUYLnmbU7UEFbjtDA2hxJ1ichM=
+github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af/go.mod h1:Nht3zPeWKUH0NzdCt2Blrr5ys8VGpn0CEB0cQHVjt7k=
+github.com/magefile/mage v1.8.0 h1:mzL+xIopvPURVBwHG9A50JcjBO+xV3b5iZ7khFRI+5E=
+github.com/magefile/mage v1.8.0/go.mod h1:IUDi13rsHje59lecXokTfGX0QIzO45uVPlXnJYsXepA=

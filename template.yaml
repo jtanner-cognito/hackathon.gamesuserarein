@@ -1,0 +1,56 @@
+---
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+
+Globals:
+  Function:
+    Handler: app
+    Timeout: 30
+
+
+Description: >
+  Your description goes here
+
+Resources:
+###############
+## Function(s)
+###############
+
+############
+#  Lambda  #
+############
+
+  GetActiveGamesForUser:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: bin/handlers/changeMe/app.zip
+      Runtime: go1.x
+      FunctionName: !Sub "GetActiveGamesForUser"
+      Policies:
+        - Version: 2012-10-17
+          Statement:
+            - Effect: Allow
+              Action:
+                - "dynamodb:BatchGetItem"
+                - "dynamodb:DescribeTable"
+                - "dynamodb:GetItem"
+                - "dynamodb:ListTables"
+                - "dynamodb:Query"
+                - "dynamodb:Scan"
+                - "dynamodb:DescribeReservedCapacity"
+                - "dynamodb:DescribeReservedCapacityOfferings"
+                - "dynamodb:ListTagsOfResource"
+                - "dynamodb:DescribeTimeToLive"
+                - "dynamodb:DescribeLimits"
+                - "dynamodb:ListGlobalTables"
+                - "dynamodb:DescribeGlobalTable"
+                - "dynamodb:DescribeBackup"
+                - "dynamodb:ListBackups"
+                - "dynamodb:DescribeContinuousBackups"
+                - "dynamodb:BatchWriteItem"
+                - "dynamodb:DeleteItem"
+                - "dynamodb:PutItem"
+                - "dynamodb:UpdateItem"
+                - "ssm:*"
+              Resource: "*"
+      
